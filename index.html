@@ -1,525 +1,610 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>生成AIワークショップ | ChatGPTだけが、AIではない。</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@300;400;500;600;700;800;900&family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>生成AIワークショップ | ChatGPTだけが、AIではない。</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WBCX32G3WP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<!-- ====== NAVIGATION ====== -->
-<nav class="nav" id="nav">
-  <div class="nav-inner">
-    <div class="nav-logo">DAI MIYAWAKI</div>
-    <a href="#contact" class="nav-cta">お問い合わせ</a>
-  </div>
-</nav>
-
-<!-- ====== SECTION 1: HERO ====== -->
-<section class="hero" id="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-grid"></div>
-  <div class="hero-content">
-    <div class="hero-label reveal">Generative AI Workshop</div>
-    <h1 class="hero-title reveal reveal-delay-1">
-      ChatGPTだけが、<br><span class="accent">AIではない。</span>
-    </h1>
-    <p class="hero-sub reveal reveal-delay-2">
-      生成AIは「文章を作る道具」だけではありません。<br>
-      業務動画の分析、ツール開発、ブラウザ操作、PC操作代行。<br>
-      実際に手を動かして、AIの本当の実力を体感してください。
-    </p>
-    <div class="hero-cta-group reveal reveal-delay-3">
-      <a href="#contact" class="btn-primary">ワークショップに申し込む</a>
-      <a href="#experience" class="btn-ghost">体験内容を見る</a>
-    </div>
-  </div>
-  <div class="hero-scroll-hint">
-    <div class="scroll-line"></div>
-  </div>
-</section>
-
-<!-- ====== SECTION 2: EMBARRASSING MOMENTS ====== -->
-<section class="section embarrass" id="embarrass">
-  <div class="section-inner">
-    <div class="embarrass-intro">
-      <div class="section-label reveal">Reality Check</div>
-      <h2 class="section-title reveal reveal-delay-1">こんな経験、ありませんか？</h2>
-      <p class="section-desc reveal reveal-delay-2">
-        あなたの周りで、すでに起きていることかもしれません。
-      </p>
-    </div>
-    <div class="embarrass-grid">
-
-      <div class="embarrass-card reveal">
-        <p class="scene">取引先との打ち合わせ中、相手がノートPCを開いて「このツール、昨日AIに作らせたんですよ」と見せてきた。こちらはまだ議事録をWordで手打ちしていた。</p>
-        <p class="reaction">帰りの車で、自分たちがどれだけ遅れているか初めて実感した。</p>
+      gtag("config", "G-WBCX32G3WP");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@300;400;500;600;700;800;900&family=Source+Code+Pro:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ====== NAVIGATION ====== -->
+    <nav class="nav" id="nav">
+      <div class="nav-inner">
+        <div class="nav-logo">DAI MIYAWAKI</div>
+        <a href="#contact" class="nav-cta">お問い合わせ</a>
       </div>
+    </nav>
 
-      <div class="embarrass-card reveal reveal-delay-1">
-        <p class="scene">新しく入ったアルバイトが、初日にExcelの作業手順を動画で撮って「これAIに読み込ませたらマニュアルになりますよ」と言った。先輩社員は、3年間その作業を口頭で引き継いでいた。</p>
-        <p class="reaction">作業マニュアルがない理由が「時間がなかったから」だったことに気づいた。</p>
+    <!-- ====== SECTION 1: HERO ====== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="hero-label reveal">Generative AI Workshop</div>
+        <h1 class="hero-title reveal reveal-delay-1">
+          ChatGPTだけが、<br /><span class="accent">AIではない。</span>
+        </h1>
+        <p class="hero-sub reveal reveal-delay-2">
+          生成AIは「文章を作る道具」だけではありません。<br />
+          業務動画の分析、ツール開発、ブラウザ操作、PC操作代行。<br />
+          実際に手を動かして、AIの本当の実力を体感してください。
+        </p>
+        <div class="hero-cta-group reveal reveal-delay-3">
+          <a href="#contact" class="btn-primary">ワークショップに申し込む</a>
+          <a href="#experience" class="btn-ghost">体験内容を見る</a>
+        </div>
       </div>
+      <div class="hero-scroll-hint">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
 
-      <div class="embarrass-card reveal reveal-delay-2">
-        <p class="scene">「うちもAI導入してます」と胸を張って言ったら、「具体的に何を？」と聞かれた。答えは「ChatGPTで文章を要約している」だけだった。</p>
-        <p class="reaction">相手は黙ってうなずいたが、その沈黙が一番つらかった。</p>
-      </div>
-
-      <div class="embarrass-card reveal reveal-delay-3">
-        <p class="scene">競合他社のホームページがリニューアルされていた。口コミ分析や待ち時間の自動取得が実装されている。自社はまだ「社内で検討中」のまま半年が過ぎていた。</p>
-        <p class="reaction">「検討中」は、何もしていないことと同じだった。</p>
-      </div>
-
-      <div class="embarrass-card reveal reveal-delay-4">
-        <p class="scene">社内のファイルサーバーに、日付もフォーマットもバラバラなExcel・Word・PowerPointが200個以上。毎回「あの資料どこだっけ？」から始まる。AIで整理できると知ったのは、他社の事例発表を聞いた後だった。</p>
-        <p class="reaction">探す時間そのものが、会社の損失だと知った。</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ====== SECTION 3: WHY THEY THINK SO ====== -->
-<section class="section why-section" id="why">
-  <div class="section-inner">
-    <div class="section-label reveal">Background</div>
-    <h2 class="section-title reveal reveal-delay-1">なぜ、「ChatGPT＝生成AI」と<br>思ってしまうのか</h2>
-    <p class="section-desc reveal reveal-delay-2">
-      そう思ってしまうのには、明確な理由があります。<br>そして、その思い込みが行動を遅らせています。
-    </p>
-    <div class="why-reasons">
-
-      <div class="why-card reveal">
-        <div class="number">01</div>
-        <h3>目に見えるものが全部に見える</h3>
-        <p>ニュースやSNSでよく名前が出るツールが、すべてだと感じやすくなります。テレビで繰り返し紹介されるものだけが記憶に残り、「それ以外」を知る機会がないまま判断してしまいます。</p>
-      </div>
-
-      <div class="why-card reveal reveal-delay-1">
-        <div class="number">02</div>
-        <h3>「文章を作るAI」の印象が強い</h3>
-        <p>多くの人が最初に触れたのは、質問に答えるチャット型のAIでした。そのため「AI＝文章を作るもの」という認識が固定されてしまい、それ以外の使い方に想像が及びません。</p>
-      </div>
-
-      <div class="why-card reveal reveal-delay-2">
-        <div class="number">03</div>
-        <h3>触る機会がない</h3>
-        <p>他にもツールがあると知っていても、「難しそう」「自分には関係なさそう」と感じて触らないまま時間が過ぎていきます。体験なしでは、その先に何があるのかわかりません。</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ====== SECTION 4: REAL POTENTIAL ====== -->
-<section class="section potential parallax-section" id="potential">
-  <div class="section-inner">
-    <div class="section-label reveal">The Real Potential</div>
-    <h2 class="section-title reveal reveal-delay-1">生成AIの本当の実力</h2>
-    <p class="section-desc reveal reveal-delay-2">
-      文章生成は、生成AIにできることのほんの一部に過ぎません。
-    </p>
-    <div class="potential-statement reveal">
-      今、生成AIは<span class="highlight">画面を見て操作を理解し</span>、<span class="highlight">自分でコードを書いてツールを作り</span>、<span class="highlight">Webページを巡回して情報を集め</span>、<span class="highlight">パソコンそのものを操作する</span>段階に入っています。
-    </div>
-    <div class="potential-list">
-      <div class="potential-item reveal">
-        <h4>業務の可視化</h4>
-        <p>録画した操作動画をAIが分析。手順書を自動で生成し、非効率な部分を指摘する。</p>
-      </div>
-      <div class="potential-item reveal reveal-delay-1">
-        <h4>ツールの即時開発</h4>
-        <p>必要なツールを、その場でAIが開発。費用対効果を気にして年月をかける時代は終わった。</p>
-      </div>
-      <div class="potential-item reveal reveal-delay-2">
-        <h4>情報収集の自動化</h4>
-        <p>Webページを1ページずつ見る必要がない。AIが巡回し、必要な情報を編集して届ける。</p>
-      </div>
-      <div class="potential-item reveal reveal-delay-3">
-        <h4>PC操作の代行</h4>
-        <p>ファイルの整理・名称変更・フォルダ分け。人間が就業時間にやっていたことをAIが24時間こなす。</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ====== SECTION 5: WORKSHOP OVERVIEW ====== -->
-<section class="section overview" id="overview">
-  <div class="section-inner">
-    <div class="overview-header">
-      <div class="section-label reveal">Workshop Overview</div>
-      <h2 class="section-title reveal reveal-delay-1">このワークショップについて</h2>
-      <p class="section-desc reveal reveal-delay-2">
-        聞くだけのセミナーではありません。<br>
-        参加者がその場でPCを操作し、AIの力を体験するワークショップです。
-      </p>
-    </div>
-    <div class="overview-stats reveal">
-      <div class="stat-item">
-        <div class="stat-number">75<span class="stat-unit">min</span></div>
-        <div class="stat-label">ワークショップ時間</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">4<span class="stat-unit">種</span></div>
-        <div class="stat-label">ハンズオン体験</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">0<span class="stat-unit">行</span></div>
-        <div class="stat-label">必要なプログラミング</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">PC<span class="stat-unit">持参</span></div>
-        <div class="stat-label">その場で体験</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ====== SECTION 6: EXPERIENCE DETAILS ====== -->
-<section class="section experience" id="experience">
-  <div class="section-inner">
-    <div class="section-label reveal">Hands-on Experience</div>
-    <h2 class="section-title reveal reveal-delay-1">ワークショップで体験できること</h2>
-    <p class="section-desc reveal reveal-delay-2">
-      4つの体験を通じて、「ChatGPT以外に何ができるのか」を肌で理解します。
-    </p>
-
-    <div class="exp-blocks">
-
-      <!-- EXP 1 -->
-      <div class="exp-block reveal">
-        <div class="exp-text">
-          <div class="exp-number">Experience 01</div>
-          <h3 class="exp-title">Excel操作の録画動画の分析</h3>
-          <p class="exp-desc">
-            普段のExcel操作を画面録画し、その動画をAIに読み込ませます。AIが操作内容を理解し、作業手順を文字起こし。さらに「もっと効率的な進め方」まで提案します。
+    <!-- ====== SECTION 2: EMBARRASSING MOMENTS ====== -->
+    <section class="section embarrass" id="embarrass">
+      <div class="section-inner">
+        <div class="embarrass-intro">
+          <div class="section-label reveal">Reality Check</div>
+          <h2 class="section-title reveal reveal-delay-1">
+            こんな経験、ありませんか？
+          </h2>
+          <p class="section-desc reveal reveal-delay-2">
+            あなたの周りで、すでに起きていることかもしれません。
           </p>
-          <div class="exp-change">
-            <div class="exp-change-row">
-              <span class="exp-before">プロンプトに書く</span>
-              <span class="exp-arrow">&rarr;</span>
-              <span class="exp-after">操作画面を見てもらう</span>
-            </div>
-            <div class="exp-change-row">
-              <span class="exp-before">自分の知識で進める</span>
-              <span class="exp-arrow">&rarr;</span>
-              <span class="exp-after">最善の方法をAIが提示</span>
-            </div>
-          </div>
         </div>
-        <div class="exp-visual">
-          <div class="prompt-box">
-            <div class="prompt-header">
-              <span class="prompt-dot"></span>
-              <span class="prompt-dot"></span>
-              <span class="prompt-dot"></span>
-            </div>
-            <div class="prompt-body">
-              <div class="prompt-line">添付の動画の操作を見て、</div>
-              <div class="prompt-line">何をしようとしているか、</div>
-              <div class="prompt-line">私がどういう操作で</div>
-              <div class="prompt-line">作業を進めているか、</div>
-              <div class="prompt-line">説明してください。<span class="prompt-cursor"></span></div>
-            </div>
+        <div class="embarrass-grid">
+          <div class="embarrass-card reveal">
+            <p class="scene">
+              取引先との打ち合わせ中、相手がノートPCを開いて「このツール、昨日AIに作らせたんですよ」と見せてきた。こちらはまだ議事録をWordで手打ちしていた。
+            </p>
+            <p class="reaction">
+              帰りの車で、自分たちがどれだけ遅れているか初めて実感した。
+            </p>
+          </div>
+
+          <div class="embarrass-card reveal reveal-delay-1">
+            <p class="scene">
+              新しく入ったアルバイトが、初日にExcelの作業手順を動画で撮って「これAIに読み込ませたらマニュアルになりますよ」と言った。先輩社員は、3年間その作業を口頭で引き継いでいた。
+            </p>
+            <p class="reaction">
+              作業マニュアルがない理由が「時間がなかったから」だったことに気づいた。
+            </p>
+          </div>
+
+          <div class="embarrass-card reveal reveal-delay-2">
+            <p class="scene">
+              「うちもAI導入してます」と胸を張って言ったら、「具体的に何を？」と聞かれた。答えは「ChatGPTで文章を要約している」だけだった。
+            </p>
+            <p class="reaction">
+              相手は黙ってうなずいたが、その沈黙が一番つらかった。
+            </p>
+          </div>
+
+          <div class="embarrass-card reveal reveal-delay-3">
+            <p class="scene">
+              競合他社のホームページがリニューアルされていた。口コミ分析や待ち時間の自動取得が実装されている。自社はまだ「社内で検討中」のまま半年が過ぎていた。
+            </p>
+            <p class="reaction">
+              「検討中」は、何もしていないことと同じだった。
+            </p>
+          </div>
+
+          <div class="embarrass-card reveal reveal-delay-4">
+            <p class="scene">
+              社内のファイルサーバーに、日付もフォーマットもバラバラなExcel・Word・PowerPointが200個以上。毎回「あの資料どこだっけ？」から始まる。AIで整理できると知ったのは、他社の事例発表を聞いた後だった。
+            </p>
+            <p class="reaction">探す時間そのものが、会社の損失だと知った。</p>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- EXP 2 -->
-      <div class="exp-block reveal">
-        <div class="exp-text">
-          <div class="exp-number">Experience 02</div>
-          <h3 class="exp-title">業務効率化ツールの開発</h3>
-          <p class="exp-desc">
-            プログラミング経験ゼロでも、その場で業務ツールを作成します。口コミ取得ツール、画像文字起こしアプリなど。エンジニアに依頼して数ヶ月待つ必要はもうありません。
+    <!-- ====== SECTION 3: WHY THEY THINK SO ====== -->
+    <section class="section why-section" id="why">
+      <div class="section-inner">
+        <div class="section-label reveal">Background</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          なぜ、「ChatGPT＝生成AI」と<br />思ってしまうのか
+        </h2>
+        <p class="section-desc reveal reveal-delay-2">
+          そう思ってしまうのには、明確な理由があります。<br />そして、その思い込みが行動を遅らせています。
+        </p>
+        <div class="why-reasons">
+          <div class="why-card reveal">
+            <div class="number">01</div>
+            <h3>目に見えるものが全部に見える</h3>
+            <p>
+              ニュースやSNSでよく名前が出るツールが、すべてだと感じやすくなります。テレビで繰り返し紹介されるものだけが記憶に残り、「それ以外」を知る機会がないまま判断してしまいます。
+            </p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-1">
+            <div class="number">02</div>
+            <h3>「文章を作るAI」の印象が強い</h3>
+            <p>
+              多くの人が最初に触れたのは、質問に答えるチャット型のAIでした。そのため「AI＝文章を作るもの」という認識が固定されてしまい、それ以外の使い方に想像が及びません。
+            </p>
+          </div>
+
+          <div class="why-card reveal reveal-delay-2">
+            <div class="number">03</div>
+            <h3>触る機会がない</h3>
+            <p>
+              他にもツールがあると知っていても、「難しそう」「自分には関係なさそう」と感じて触らないまま時間が過ぎていきます。体験なしでは、その先に何があるのかわかりません。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 4: REAL POTENTIAL ====== -->
+    <section class="section potential parallax-section" id="potential">
+      <div class="section-inner">
+        <div class="section-label reveal">The Real Potential</div>
+        <h2 class="section-title reveal reveal-delay-1">生成AIの本当の実力</h2>
+        <p class="section-desc reveal reveal-delay-2">
+          文章生成は、生成AIにできることのほんの一部に過ぎません。
+        </p>
+        <div class="potential-statement reveal">
+          今、生成AIは<span class="highlight">画面を見て操作を理解し</span
+          >、<span class="highlight">自分でコードを書いてツールを作り</span
+          >、<span class="highlight">Webページを巡回して情報を集め</span>、<span
+            class="highlight"
+            >パソコンそのものを操作する</span
+          >段階に入っています。
+        </div>
+        <div class="potential-list">
+          <div class="potential-item reveal">
+            <h4>業務の可視化</h4>
+            <p>
+              録画した操作動画をAIが分析。手順書を自動で生成し、非効率な部分を指摘する。
+            </p>
+          </div>
+          <div class="potential-item reveal reveal-delay-1">
+            <h4>ツールの即時開発</h4>
+            <p>
+              必要なツールを、その場でAIが開発。費用対効果を気にして年月をかける時代は終わった。
+            </p>
+          </div>
+          <div class="potential-item reveal reveal-delay-2">
+            <h4>情報収集の自動化</h4>
+            <p>
+              Webページを1ページずつ見る必要がない。AIが巡回し、必要な情報を編集して届ける。
+            </p>
+          </div>
+          <div class="potential-item reveal reveal-delay-3">
+            <h4>PC操作の代行</h4>
+            <p>
+              ファイルの整理・名称変更・フォルダ分け。人間が就業時間にやっていたことをAIが24時間こなす。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 5: WORKSHOP OVERVIEW ====== -->
+    <section class="section overview" id="overview">
+      <div class="section-inner">
+        <div class="overview-header">
+          <div class="section-label reveal">Workshop Overview</div>
+          <h2 class="section-title reveal reveal-delay-1">
+            このワークショップについて
+          </h2>
+          <p class="section-desc reveal reveal-delay-2">
+            聞くだけのセミナーではありません。<br />
+            参加者がその場でPCを操作し、AIの力を体験するワークショップです。
           </p>
-          <div class="exp-change">
-            <div class="exp-change-row">
-              <span class="exp-before">費用対効果を見て年月かけて開発</span>
-              <span class="exp-arrow">&rarr;</span>
-              <span class="exp-after">その場で開発して即使う</span>
-            </div>
-            <div class="exp-change-row">
-              <span class="exp-before">エンジニアを採用・外注</span>
-              <span class="exp-arrow">&rarr;</span>
-              <span class="exp-after">業務担当者が自分で作る</span>
-            </div>
+        </div>
+        <div class="overview-stats reveal">
+          <div class="stat-item">
+            <div class="stat-number">75<span class="stat-unit">min</span></div>
+            <div class="stat-label">ワークショップ時間</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">4<span class="stat-unit">種</span></div>
+            <div class="stat-label">ハンズオン体験</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">0<span class="stat-unit">行</span></div>
+            <div class="stat-label">必要なプログラミング</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">PC<span class="stat-unit">持参</span></div>
+            <div class="stat-label">その場で体験</div>
           </div>
         </div>
-        <div class="exp-visual">
-          <div class="prompt-box">
-            <div class="prompt-header">
-              <span class="prompt-dot"></span>
-              <span class="prompt-dot"></span>
-              <span class="prompt-dot"></span>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 6: EXPERIENCE DETAILS ====== -->
+    <section class="section experience" id="experience">
+      <div class="section-inner">
+        <div class="section-label reveal">Hands-on Experience</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          ワークショップで体験できること
+        </h2>
+        <p class="section-desc reveal reveal-delay-2">
+          4つの体験を通じて、「ChatGPT以外に何ができるのか」を肌で理解します。
+        </p>
+
+        <div class="exp-blocks">
+          <!-- EXP 1 -->
+          <div class="exp-block reveal">
+            <div class="exp-text">
+              <div class="exp-number">Experience 01</div>
+              <h3 class="exp-title">Excel操作の録画動画の分析</h3>
+              <p class="exp-desc">
+                普段のExcel操作を画面録画し、その動画をAIに読み込ませます。AIが操作内容を理解し、作業手順を文字起こし。さらに「もっと効率的な進め方」まで提案します。
+              </p>
+              <div class="exp-change">
+                <div class="exp-change-row">
+                  <span class="exp-before">プロンプトに書く</span>
+                  <span class="exp-arrow">&rarr;</span>
+                  <span class="exp-after">操作画面を見てもらう</span>
+                </div>
+                <div class="exp-change-row">
+                  <span class="exp-before">自分の知識で進める</span>
+                  <span class="exp-arrow">&rarr;</span>
+                  <span class="exp-after">最善の方法をAIが提示</span>
+                </div>
+              </div>
             </div>
-            <div class="prompt-body">
-              <div class="prompt-line">手元のPDFやJPEGを</div>
-              <div class="prompt-line">アップロードして、</div>
-              <div class="prompt-line">文字起こしするアプリを</div>
-              <div class="prompt-line">作って。Excelで</div>
-              <div class="prompt-line">ダウンロードできるように。<span class="prompt-cursor"></span></div>
+            <div class="exp-visual">
+              <div class="prompt-box">
+                <div class="prompt-header">
+                  <span class="prompt-dot"></span>
+                  <span class="prompt-dot"></span>
+                  <span class="prompt-dot"></span>
+                </div>
+                <div class="prompt-body">
+                  <div class="prompt-line">添付の動画の操作を見て、</div>
+                  <div class="prompt-line">何をしようとしているか、</div>
+                  <div class="prompt-line">私がどういう操作で</div>
+                  <div class="prompt-line">作業を進めているか、</div>
+                  <div class="prompt-line">
+                    説明してください。<span class="prompt-cursor"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXP 2 -->
+          <div class="exp-block reveal">
+            <div class="exp-text">
+              <div class="exp-number">Experience 02</div>
+              <h3 class="exp-title">業務効率化ツールの開発</h3>
+              <p class="exp-desc">
+                プログラミング経験ゼロでも、その場で業務ツールを作成します。口コミ取得ツール、画像文字起こしアプリなど。エンジニアに依頼して数ヶ月待つ必要はもうありません。
+              </p>
+              <div class="exp-change">
+                <div class="exp-change-row">
+                  <span class="exp-before">費用対効果を見て年月かけて開発</span>
+                  <span class="exp-arrow">&rarr;</span>
+                  <span class="exp-after">その場で開発して即使う</span>
+                </div>
+                <div class="exp-change-row">
+                  <span class="exp-before">エンジニアを採用・外注</span>
+                  <span class="exp-arrow">&rarr;</span>
+                  <span class="exp-after">業務担当者が自分で作る</span>
+                </div>
+              </div>
+            </div>
+            <div class="exp-visual">
+              <div class="prompt-box">
+                <div class="prompt-header">
+                  <span class="prompt-dot"></span>
+                  <span class="prompt-dot"></span>
+                  <span class="prompt-dot"></span>
+                </div>
+                <div class="prompt-body">
+                  <div class="prompt-line">手元のPDFやJPEGを</div>
+                  <div class="prompt-line">アップロードして、</div>
+                  <div class="prompt-line">文字起こしするアプリを</div>
+                  <div class="prompt-line">作って。Excelで</div>
+                  <div class="prompt-line">
+                    ダウンロードできるように。<span
+                      class="prompt-cursor"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXP 3 -->
+          <div class="exp-block reveal">
+            <div class="exp-text">
+              <div class="exp-number">Experience 03</div>
+              <h3 class="exp-title">ブラウザの操作代行</h3>
+              <p class="exp-desc">
+                Webページの閲覧・情報収集をAIが代わりに行います。ホームページの問い合わせ内容の調査、募集要項の確認など、1ページずつ目で読む作業はAIに任せられます。
+              </p>
+              <div class="exp-change">
+                <div class="exp-change-row">
+                  <span class="exp-before">1ページずつ見て調べる</span>
+                  <span class="exp-arrow">&rarr;</span>
+                  <span class="exp-after">AIが必要なページを巡回</span>
+                </div>
+                <div class="exp-change-row">
+                  <span class="exp-before">企業がチャットBOTを設置する</span>
+                  <span class="exp-arrow">&rarr;</span>
+                  <span class="exp-after">ユーザーのAIがBOTになる</span>
+                </div>
+              </div>
+            </div>
+            <div class="exp-visual">
+              <div class="prompt-box">
+                <div class="prompt-header">
+                  <span class="prompt-dot"></span>
+                  <span class="prompt-dot"></span>
+                  <span class="prompt-dot"></span>
+                </div>
+                <div class="prompt-body">
+                  <div class="prompt-line">このページの内容を見て、</div>
+                  <div class="prompt-line">静岡県以外の店舗への</div>
+                  <div class="prompt-line">転勤可能性があるか</div>
+                  <div class="prompt-line">調べて。募集要項や</div>
+                  <div class="prompt-line">
+                    会社説明会も見て。<span class="prompt-cursor"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXP 4 -->
+          <div class="exp-block reveal">
+            <div class="exp-text">
+              <div class="exp-number">Experience 04</div>
+              <h3 class="exp-title">パソコン操作の代行</h3>
+              <p class="exp-desc">
+                フォルダ内のファイル整理、名称変更、分類をAIが自動で実行します。日付も内容もバラバラに保存されたExcel・Word・PowerPointを、月別・用途別に仕分け。人間が就業時間にやっていた単純作業を、AIが24時間365日こなします。
+              </p>
+              <div class="exp-change">
+                <div class="exp-change-row">
+                  <span class="exp-before">ルールを決めてファイルを保存</span>
+                  <span class="exp-arrow">&rarr;</span>
+                  <span class="exp-after">AIが探して活用する</span>
+                </div>
+                <div class="exp-change-row">
+                  <span class="exp-before">就業時間にPC作業をする</span>
+                  <span class="exp-arrow">&rarr;</span>
+                  <span class="exp-after">AIが24時間365日稼働</span>
+                </div>
+              </div>
+            </div>
+            <div class="exp-visual">
+              <div class="exp-visual-inner">
+                <div class="exp-visual-label">BEFORE &rarr; AFTER</div>
+                <div class="exp-visual-keyword">バラバラのファイル200個</div>
+                <div class="exp-visual-sub">
+                  月別 / 用途別に自動で仕分け<br />名称変更も一括で完了
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- EXP 3 -->
-      <div class="exp-block reveal">
-        <div class="exp-text">
-          <div class="exp-number">Experience 03</div>
-          <h3 class="exp-title">ブラウザの操作代行</h3>
-          <p class="exp-desc">
-            Webページの閲覧・情報収集をAIが代わりに行います。ホームページの問い合わせ内容の調査、募集要項の確認など、1ページずつ目で読む作業はAIに任せられます。
+    <!-- ====== SECTION 7: GAME CHANGES ====== -->
+    <section class="section gamechange" id="gamechange">
+      <div class="section-inner">
+        <div class="section-label reveal">Game Change</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          いま、起きているゲームチェンジ
+        </h2>
+        <p class="section-desc reveal reveal-delay-2">
+          従来の常識が、生成AIによって根本から変わり始めています。
+        </p>
+
+        <div class="gc-grid reveal">
+          <div class="gc-row">
+            <div class="gc-before">AIにわかるように、プロンプトに書く</div>
+            <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
+            <div class="gc-after">操作している画面を見てもらう</div>
+          </div>
+          <div class="gc-row">
+            <div class="gc-before">「非効率では？」と思うことを相談する</div>
+            <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
+            <div class="gc-after">客観的に、非効率を指摘する</div>
+          </div>
+          <div class="gc-row">
+            <div class="gc-before">費用対効果を見ながら年月をかけて開発</div>
+            <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
+            <div class="gc-after">その場で開発して、使い終わったら削除する</div>
+          </div>
+          <div class="gc-row">
+            <div class="gc-before">エンジニアを採用する、外注する</div>
+            <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
+            <div class="gc-after">業務をする人が、自分で必要なものを作る</div>
+          </div>
+          <div class="gc-row">
+            <div class="gc-before">Webページを1ページずつ見て調べる</div>
+            <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
+            <div class="gc-after">AIが必要なページを巡回して調べる</div>
+          </div>
+          <div class="gc-row">
+            <div class="gc-before">人間が就業時間中にパソコンで業務をする</div>
+            <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
+            <div class="gc-after">AIが24時間、365日仕事をする</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 8: TESTIMONIALS ====== -->
+    <section class="section testimonials" id="testimonials">
+      <div class="section-inner">
+        <div class="testimonials-header">
+          <div class="section-label reveal">Voices</div>
+          <h2 class="section-title reveal reveal-delay-1">参加者の声</h2>
+          <p class="section-desc reveal reveal-delay-2">
+            ワークショップを体験された方のリアルな感想です。
           </p>
-          <div class="exp-change">
-            <div class="exp-change-row">
-              <span class="exp-before">1ページずつ見て調べる</span>
-              <span class="exp-arrow">&rarr;</span>
-              <span class="exp-after">AIが必要なページを巡回</span>
-            </div>
-            <div class="exp-change-row">
-              <span class="exp-before">企業がチャットBOTを設置する</span>
-              <span class="exp-arrow">&rarr;</span>
-              <span class="exp-after">ユーザーのAIがBOTになる</span>
+        </div>
+        <div class="testi-grid">
+          <div class="testi-card reveal">
+            <p class="testi-quote">
+              正直、ChatGPTで文章の要約をしているだけで「AI活用してます」と言っていた自分が恥ずかしくなりました。動画を読み込ませて手順書ができたとき、次元が違うと思いました。
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar">K.S</div>
+              <div>
+                <div class="testi-name">K.S</div>
+                <div class="testi-role">飲食チェーン / 総務部長</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="exp-visual">
-          <div class="prompt-box">
-            <div class="prompt-header">
-              <span class="prompt-dot"></span>
-              <span class="prompt-dot"></span>
-              <span class="prompt-dot"></span>
+
+          <div class="testi-card reveal reveal-delay-1">
+            <p class="testi-quote">
+              会議で「AIを活用した業務改善」の報告を求められたとき、ChatGPTで議事録を要約した話しかできなかった。このワークショップを受けた後なら、もっと具体的な提案ができたはずです。
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar">M.T</div>
+              <div>
+                <div class="testi-name">M.T</div>
+                <div class="testi-role">飲食チェーン / 経営企画</div>
+              </div>
             </div>
-            <div class="prompt-body">
-              <div class="prompt-line">このページの内容を見て、</div>
-              <div class="prompt-line">静岡県以外の店舗への</div>
-              <div class="prompt-line">転勤可能性があるか</div>
-              <div class="prompt-line">調べて。募集要項や</div>
-              <div class="prompt-line">会社説明会も見て。<span class="prompt-cursor"></span></div>
+          </div>
+
+          <div class="testi-card reveal reveal-delay-2">
+            <p class="testi-quote">
+              プログラミング経験ゼロの私がその場でアプリを作れたことに一番驚きました。今まで「IT部門に相談しないと」と思っていたことが、自分でできると知れたのは大きいです。
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar">Y.N</div>
+              <div>
+                <div class="testi-name">Y.N</div>
+                <div class="testi-role">飲食チェーン / 店舗マネージャー</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card reveal reveal-delay-3">
+            <p class="testi-quote">
+              ファイルの整理に毎月2時間かけていたのが馬鹿らしくなりました。200個のファイルを月別に分けてリネームする作業、AIが数分で終わらせたのを目の当たりにして。あの2時間、何だったんだろうと。
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar">A.H</div>
+              <div>
+                <div class="testi-name">A.H</div>
+                <div class="testi-role">飲食チェーン / 総務担当</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- EXP 4 -->
-      <div class="exp-block reveal">
-        <div class="exp-text">
-          <div class="exp-number">Experience 04</div>
-          <h3 class="exp-title">パソコン操作の代行</h3>
-          <p class="exp-desc">
-            フォルダ内のファイル整理、名称変更、分類をAIが自動で実行します。日付も内容もバラバラに保存されたExcel・Word・PowerPointを、月別・用途別に仕分け。人間が就業時間にやっていた単純作業を、AIが24時間365日こなします。
+    <!-- ====== SECTION 9: WORKSHOP FLOW ====== -->
+    <section class="section flow" id="flow">
+      <div class="section-inner">
+        <div class="flow-header">
+          <div class="section-label reveal">Program</div>
+          <h2 class="section-title reveal reveal-delay-1">
+            ワークショップの流れ
+          </h2>
+          <p class="section-desc reveal reveal-delay-2">
+            75分のプログラムで、生成AIの全体像を体感します。<br />PC持参で、その場で一緒に操作しながら進めます。
           </p>
-          <div class="exp-change">
-            <div class="exp-change-row">
-              <span class="exp-before">ルールを決めてファイルを保存</span>
-              <span class="exp-arrow">&rarr;</span>
-              <span class="exp-after">AIが探して活用する</span>
-            </div>
-            <div class="exp-change-row">
-              <span class="exp-before">就業時間にPC作業をする</span>
-              <span class="exp-arrow">&rarr;</span>
-              <span class="exp-after">AIが24時間365日稼働</span>
+        </div>
+        <div class="flow-timeline">
+          <div class="flow-item reveal">
+            <div class="flow-marker">01</div>
+            <div class="flow-content">
+              <div class="flow-time">0:00 - 0:05 / 5 min</div>
+              <h4>自己紹介</h4>
+              <p>講師の紹介と、今日のゴールを共有します。</p>
             </div>
           </div>
-        </div>
-        <div class="exp-visual">
-          <div class="exp-visual-inner">
-            <div class="exp-visual-label">BEFORE &rarr; AFTER</div>
-            <div class="exp-visual-keyword">バラバラのファイル200個</div>
-            <div class="exp-visual-sub">月別 / 用途別に自動で仕分け<br>名称変更も一括で完了</div>
+
+          <div class="flow-item reveal reveal-delay-1">
+            <div class="flow-marker">02</div>
+            <div class="flow-content">
+              <div class="flow-time">0:05 - 0:45 / 40 min</div>
+              <h4>生成AIツールの操作体験</h4>
+              <p>
+                ChatGPT以外の生成AIを実際に触って、できることを体験します。Excel操作の動画分析、業務効率化ツール開発、ブラウザ操作代行、パソコン操作の代行の4つを順番に体験。
+              </p>
+            </div>
+          </div>
+
+          <div class="flow-item reveal reveal-delay-2">
+            <div class="flow-marker">03</div>
+            <div class="flow-content">
+              <div class="flow-time">0:45 - 1:05 / 20 min</div>
+              <h4>今後の生成AIの活躍先を知る</h4>
+              <p>
+                ロボット活用と自動化。判断も含めてAIがすべて作業する未来と、24時間365日稼働するAIの可能性について解説します。
+              </p>
+            </div>
+          </div>
+
+          <div class="flow-item reveal reveal-delay-3">
+            <div class="flow-marker">04</div>
+            <div class="flow-content">
+              <div class="flow-time">1:05 - 1:15 / 10 min</div>
+              <h4>質問 / 感想</h4>
+              <p>
+                体験を振り返り、疑問点の解消と、明日からの活用について話し合います。
+              </p>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-    </div>
-  </div>
-</section>
-
-<!-- ====== SECTION 7: GAME CHANGES ====== -->
-<section class="section gamechange" id="gamechange">
-  <div class="section-inner">
-    <div class="section-label reveal">Game Change</div>
-    <h2 class="section-title reveal reveal-delay-1">いま、起きているゲームチェンジ</h2>
-    <p class="section-desc reveal reveal-delay-2">
-      従来の常識が、生成AIによって根本から変わり始めています。
-    </p>
-
-    <div class="gc-grid reveal">
-      <div class="gc-row">
-        <div class="gc-before">AIにわかるように、プロンプトに書く</div>
-        <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
-        <div class="gc-after">操作している画面を見てもらう</div>
+    <!-- ====== SECTION 10: CTA / CONTACT ====== -->
+    <section class="section cta-section" id="contact">
+      <div class="section-inner cta-inner">
+        <div class="section-label reveal">Contact</div>
+        <h2 class="cta-title reveal reveal-delay-1">
+          「知らなかった」で<br />済ませられる時間は、<br />もう残っていません。
+        </h2>
+        <p class="cta-desc reveal reveal-delay-2">
+          まずは体験してください。<br />
+          75分で、生成AIに対する見方が変わります。<br />
+          ワークショップの詳細やお見積りについて、<br />お気軽にお問い合わせください。
+        </p>
+        <a
+          href="https://docs.google.com/forms/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-cta-large reveal reveal-delay-3"
+          >お問い合わせはこちら</a
+        >
+        <p class="cta-note reveal reveal-delay-4">Googleフォームが開きます</p>
       </div>
-      <div class="gc-row">
-        <div class="gc-before">「非効率では？」と思うことを相談する</div>
-        <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
-        <div class="gc-after">客観的に、非効率を指摘する</div>
-      </div>
-      <div class="gc-row">
-        <div class="gc-before">費用対効果を見ながら年月をかけて開発</div>
-        <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
-        <div class="gc-after">その場で開発して、使い終わったら削除する</div>
-      </div>
-      <div class="gc-row">
-        <div class="gc-before">エンジニアを採用する、外注する</div>
-        <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
-        <div class="gc-after">業務をする人が、自分で必要なものを作る</div>
-      </div>
-      <div class="gc-row">
-        <div class="gc-before">Webページを1ページずつ見て調べる</div>
-        <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
-        <div class="gc-after">AIが必要なページを巡回して調べる</div>
-      </div>
-      <div class="gc-row">
-        <div class="gc-before">人間が就業時間中にパソコンで業務をする</div>
-        <div class="gc-arrow-col"><div class="gc-arrow-line"></div></div>
-        <div class="gc-after">AIが24時間、365日仕事をする</div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ====== SECTION 8: TESTIMONIALS ====== -->
-<section class="section testimonials" id="testimonials">
-  <div class="section-inner">
-    <div class="testimonials-header">
-      <div class="section-label reveal">Voices</div>
-      <h2 class="section-title reveal reveal-delay-1">参加者の声</h2>
-      <p class="section-desc reveal reveal-delay-2">
-        ワークショップを体験された方のリアルな感想です。
-      </p>
-    </div>
-    <div class="testi-grid">
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+      <p>&copy; 2026 DAI MIYAWAKI</p>
+    </footer>
 
-      <div class="testi-card reveal">
-        <p class="testi-quote">正直、ChatGPTで文章の要約をしているだけで「AI活用してます」と言っていた自分が恥ずかしくなりました。動画を読み込ませて手順書ができたとき、次元が違うと思いました。</p>
-        <div class="testi-author">
-          <div class="testi-avatar">K.S</div>
-          <div>
-            <div class="testi-name">K.S</div>
-            <div class="testi-role">飲食チェーン / 総務部長</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal reveal-delay-1">
-        <p class="testi-quote">会議で「AIを活用した業務改善」の報告を求められたとき、ChatGPTで議事録を要約した話しかできなかった。このワークショップを受けた後なら、もっと具体的な提案ができたはずです。</p>
-        <div class="testi-author">
-          <div class="testi-avatar">M.T</div>
-          <div>
-            <div class="testi-name">M.T</div>
-            <div class="testi-role">飲食チェーン / 経営企画</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal reveal-delay-2">
-        <p class="testi-quote">プログラミング経験ゼロの私がその場でアプリを作れたことに一番驚きました。今まで「IT部門に相談しないと」と思っていたことが、自分でできると知れたのは大きいです。</p>
-        <div class="testi-author">
-          <div class="testi-avatar">Y.N</div>
-          <div>
-            <div class="testi-name">Y.N</div>
-            <div class="testi-role">飲食チェーン / 店舗マネージャー</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal reveal-delay-3">
-        <p class="testi-quote">ファイルの整理に毎月2時間かけていたのが馬鹿らしくなりました。200個のファイルを月別に分けてリネームする作業、AIが数分で終わらせたのを目の当たりにして。あの2時間、何だったんだろうと。</p>
-        <div class="testi-author">
-          <div class="testi-avatar">A.H</div>
-          <div>
-            <div class="testi-name">A.H</div>
-            <div class="testi-role">飲食チェーン / 総務担当</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ====== SECTION 9: WORKSHOP FLOW ====== -->
-<section class="section flow" id="flow">
-  <div class="section-inner">
-    <div class="flow-header">
-      <div class="section-label reveal">Program</div>
-      <h2 class="section-title reveal reveal-delay-1">ワークショップの流れ</h2>
-      <p class="section-desc reveal reveal-delay-2">
-        75分のプログラムで、生成AIの全体像を体感します。<br>PC持参で、その場で一緒に操作しながら進めます。
-      </p>
-    </div>
-    <div class="flow-timeline">
-
-      <div class="flow-item reveal">
-        <div class="flow-marker">01</div>
-        <div class="flow-content">
-          <div class="flow-time">0:00 - 0:05 / 5 min</div>
-          <h4>自己紹介</h4>
-          <p>講師の紹介と、今日のゴールを共有します。</p>
-        </div>
-      </div>
-
-      <div class="flow-item reveal reveal-delay-1">
-        <div class="flow-marker">02</div>
-        <div class="flow-content">
-          <div class="flow-time">0:05 - 0:45 / 40 min</div>
-          <h4>生成AIツールの操作体験</h4>
-          <p>ChatGPT以外の生成AIを実際に触って、できることを体験します。Excel操作の動画分析、業務効率化ツール開発、ブラウザ操作代行、パソコン操作の代行の4つを順番に体験。</p>
-        </div>
-      </div>
-
-      <div class="flow-item reveal reveal-delay-2">
-        <div class="flow-marker">03</div>
-        <div class="flow-content">
-          <div class="flow-time">0:45 - 1:05 / 20 min</div>
-          <h4>今後の生成AIの活躍先を知る</h4>
-          <p>ロボット活用と自動化。判断も含めてAIがすべて作業する未来と、24時間365日稼働するAIの可能性について解説します。</p>
-        </div>
-      </div>
-
-      <div class="flow-item reveal reveal-delay-3">
-        <div class="flow-marker">04</div>
-        <div class="flow-content">
-          <div class="flow-time">1:05 - 1:15 / 10 min</div>
-          <h4>質問 / 感想</h4>
-          <p>体験を振り返り、疑問点の解消と、明日からの活用について話し合います。</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ====== SECTION 10: CTA / CONTACT ====== -->
-<section class="section cta-section" id="contact">
-  <div class="section-inner cta-inner">
-    <div class="section-label reveal">Contact</div>
-    <h2 class="cta-title reveal reveal-delay-1">
-      「知らなかった」で<br>済ませられる時間は、<br>もう残っていません。
-    </h2>
-    <p class="cta-desc reveal reveal-delay-2">
-      まずは体験してください。<br>
-      75分で、生成AIに対する見方が変わります。<br>
-      ワークショップの詳細やお見積りについて、<br>お気軽にお問い合わせください。
-    </p>
-    <a href="https://docs.google.com/forms/" target="_blank" rel="noopener noreferrer" class="btn-cta-large reveal reveal-delay-3">お問い合わせはこちら</a>
-    <p class="cta-note reveal reveal-delay-4">Googleフォームが開きます</p>
-  </div>
-</section>
-
-<!-- ====== FOOTER ====== -->
-<footer class="footer">
-  <p>&copy; 2026 DAI MIYAWAKI</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
